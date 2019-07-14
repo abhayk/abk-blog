@@ -1,0 +1,16 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme="hyde-x"
+[author]
+	name = "abk"
+[permalinks]
+	post = "/blog/:year/:month/:day/:title/"
+[taxonomies]
+	category = "categories"
+[params]
+	home = "Home"
+	hideReadingTime = true
+	tagline = "Random tech stuff"
+	github = "https://github.com/abhayk"
+	linkedin = "https://linkedin.com/abhayk"
