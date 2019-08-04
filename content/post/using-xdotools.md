@@ -19,7 +19,11 @@ Sounds exactly like what we need and this is how I set it up.
 2. Try running the command `xdotool sleep 0.3 type <the text that you want to type>`. This should output the text that you entered.
 3. Configure this command in your system shortcuts. In Gnome this can be done by navigating to _Settings_ -> _Keyboard_ -> _Keyboard Shortcuts_.
 
-Once this is done the next time you press the key combo that you have configured the text gets typed to your active window be it a terminal or a web browser.
+Once this is done the next time you press the key combo that you have configured the text gets typed to your active window be it a terminal or a web browser. 
+
+For example I have set the string "epm.blr.novell.com" to be typed in whenever I press _Super_+_E_.
+
+![Example showing usage](/static/gifs/xdotools-example.gif)
 
 ##### Note
 The sleep argument is provided so that there is a sufficent delay between pressing the shortcut and invoking the type command. If this was not set some of the starting characters in your string will get gobbled up.
