@@ -16,10 +16,10 @@ After searching around for a bit I came across a package called xdotool. This is
 Sounds exactly like what we need and this is how I set it up.
 
 1. Install it using the command `sudo apt install xdotool`
-2. Try running the command `xdotool sleep 0.1 type <the text that you want to type>`. This should output the text that you entered.
+2. Try running the command `xdotool sleep 0.3 type <the text that you want to type>`. This should output the text that you entered.
 3. Configure this command in your system shortcuts. In Gnome this can be done by navigating to _Settings_ -> _Keyboard_ -> _Keyboard Shortcuts_.
 
 Once this is done the next time you press the key combo that you have configured the text gets typed to your active window be it a terminal or a web browser.
 
 ##### Note
-The sleep argument was required since in some cases when you press the key combo a couple of the initial characters seems to be getting gobbled up.
+The sleep argument is provided so that there is a sufficent delay between pressing the shortcut and invoking the type command. If this was not set some of the starting characters in your string will get gobbled up.
