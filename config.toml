@@ -1,9 +1,9 @@
 baseURL = "https://abhayk.in/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Random tech stuff"
 theme="hyde-x"
 [author]
-	name = "abk"
+	name = "abhayk"
 [permalinks]
 	post = "/blog/:year/:month/:day/:title/"
 [taxonomies]
